@@ -3,7 +3,7 @@ function serverInfo(){
 	$url = "http://5.231.63.236/serverinfo.php?s=5.231.63.236&p=28764";
 	$curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_FAILONERROR, true); 
-	curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true); 
+	//curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true); 
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); 
 	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false); 
 	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);   
@@ -16,7 +16,7 @@ function getData(){
 	$url = "http://5.231.63.236/log.php";
 	$curl = curl_init($url); 
 	curl_setopt($curl, CURLOPT_FAILONERROR, true); 
-	curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true); 
+	//curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true); 
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); 
 	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false); 
 	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);   
