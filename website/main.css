@@ -1,0 +1,32 @@
+body{
+	background-color: #455A64;
+	color: #CFD8DC;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+
+.inline{
+	display: inline-block;
+}
+
+#kills-table, #headshot-table, #teamkill-table{
+	display: none;
+}
+
+table{
+	min-width: 100%;
+	font-size: 1.2em;
+}
+
+td{
+	width: 32%;
+}
+
+tr:hover{
+	background-color: green;
+}
